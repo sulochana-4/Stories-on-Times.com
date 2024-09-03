@@ -50,7 +50,7 @@ HTML_TEMPLATE = """
             background-color: gainsboro;
             margin: 0;
             padding: 20px;
-            background:url("https://plus.unsplash.com/premium_photo-1661322706160-cf657b230ddf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background:url("https://plus.unsplash.com/premium_photo-1661255378914-d0934128d91d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         }}
         .stories-container{{
             display:flex;
@@ -58,7 +58,7 @@ HTML_TEMPLATE = """
             gap:10px; 
         }}
         .story-container {{
-            background-color:rgb(245, 232, 173);
+            background-color:rgb(173 245 238 / 96%);
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
