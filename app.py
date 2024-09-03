@@ -13,7 +13,7 @@ def get_latest_stories():
     
     connection.close()
 
-    pattern = r'<article[^>]*?>.*?<a href="(/[^"]+)"[^>]*?>\s*<h3 class="title no-eyebrow">([^<]+)</h3>.*?</article>'
+    pattern = r'<a[^>]+href="(/[^"]+)"[^>]*?>\s*<h[2-3][^>]*?>([^<]+)</h[2-3]>'
     
     matches = re.findall(pattern, html_content, re.DOTALL)
     
